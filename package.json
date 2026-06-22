@@ -1,0 +1,23 @@
+{
+  "name": "nexus-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "NEXUS WhatsApp Bot with Modern UI and Session Management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "megajs": "^1.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.0.3",
+    "pino": "^8.11.0",
+    "fs-extra": "^11.1.1",
+    "chalk": "^4.1.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
